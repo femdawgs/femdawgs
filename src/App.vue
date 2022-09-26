@@ -1,26 +1,46 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <Femdawgs msg="Femdawgs"/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Femdawgs from './components/Femdawgs-Web.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Femdawgs
   }
+  
 }
+
 </script>
 
 <style>
+
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Damion&family=Niconne&display=swap');
+  
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
+
+/*font-family: 'Amatic SC', cursive;
+  font-family: 'Damion', cursive;
+  font-family: 'Niconne', cursive;
+  font-family: 'Bad Script', cursive;
+  */
+
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+  margin: 0 !important;
+  padding: 0 !important;
+
 }
+
+body{
+  margin: 0;
+}
+
 </style>
