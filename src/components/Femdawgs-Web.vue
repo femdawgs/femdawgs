@@ -36,7 +36,15 @@
         <div class="menu-item">
 
           <div class="menu-text">
-            <a href="#five">FAQ</a>
+            <a href="#five">Puplist</a>
+          </div>
+
+        </div>
+
+        <div class="menu-item">
+
+          <div class="menu-text">
+            <a href="#six">FAQ</a>
           </div>
           
         </div>
@@ -44,7 +52,7 @@
         <div class="menu-item">
 
           <div class="menu-text">
-            <a href="#six">Team</a>
+            <a href="#seven">Team</a>
           </div>
 
         </div>
@@ -52,7 +60,7 @@
         <div class="menu-item">
 
           <div class="menu-text">
-            <a href="#seven">Mint</a>
+            <a href="#eight">Mint</a>
           </div>
 
         </div>
@@ -160,7 +168,7 @@
         </div>
 
         <div class="teddy-picture">
-          <img src="../Images/IMG_0081.jpeg" alt="teddy-pic" width = "100%" height="100%">
+          <!-- <img src="../Images/IMG_0081.jpeg" alt="teddy-pic" width = "100%" height="100%"> -->
         </div>
         
       </div>
@@ -168,8 +176,7 @@
     </section>
 
     <section>
-      <div class="rope">
-        <!-- <img src="../Images/IMG_3371.jpeg" alt="rope" height="100%" width="100%"> -->
+      <div class="roadtrip">
       </div>
     </section>
 
@@ -228,6 +235,44 @@
 
           <div class="roadmap1-description">
             <div class="roadmap1-description-title">
+              Community Building
+            </div>
+
+            <div class="roadmap1-description-content">
+              Befriend your fellow dawgs! A major goal is to build a tight-knit community.
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="roadmap1">
+          <div class="roadmap1-number">
+            4
+          </div>
+
+          <div class="roadmap1-description">
+            <div class="roadmap1-description-title">
+              Giveaways
+            </div>
+
+            <div class="roadmap1-description-content">
+              Femdawgs holders will be rewarded with very generous giveaways!
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="roadmap1">
+          <div class="roadmap1-number">
+            5
+          </div>
+
+          <div class="roadmap1-description">
+            <div class="roadmap1-description-title">
               Future Sibling Project
             </div>
 
@@ -243,7 +288,7 @@
 
         <div class="roadmap1">
           <div class="roadmap1-number">
-            4
+            6
           </div>
 
           <div class="roadmap1-description">
@@ -266,12 +311,42 @@
     </section>
 
     <section>
-      <div class="collar">
-        <!-- <img src="../Images/IMG_3374.jpeg" alt="collar" height="100%" width="100%"> -->
+      <div class="rope">
       </div>
     </section>
 
-    <section id="five">
+    <section id = "five">
+      <div class="sub-title">
+        Puplist
+      </div>
+
+      <div class="puplist-content">
+        <div class="puplist-description">
+          The 'Femdawgs - Puplist' is a ticket airdropped to early supporters of the project. There are 150 in total and they
+          come with great utility!<br> <br> Puplist benefits are as follows:<br>
+          - Mint before public<br>
+          - 50% off mint price<br>
+          - Same benefits for future projects<br>
+          <br>
+          <a href="https://www.jpg.store/collection/femdawgspuplist">JPG Store Link</a>
+
+        </div>
+
+        <div class="puplist-img">
+          
+        </div>
+
+      </div>
+
+
+    </section>
+
+    <section>
+      <div class="collar">
+      </div>
+    </section>
+
+    <section id="six">
       <div class="sub-title">
         FAQ
       </div>
@@ -376,7 +451,7 @@
 
     </section>
 
-    <section id="six">
+    <section id="seven">
       <div class="sub-title">
         Team
       </div>
@@ -415,9 +490,9 @@
 
     </section>
 
-    <section id="seven">
-      <div class="femdawgs-title">
-        Mint
+    <section id="eight">
+      <div class="left-title">
+        Mint - soon
       </div>
 
       <div class="container1">
@@ -447,15 +522,15 @@
         <div class="femdawgs-description-images">
           
           <div class="pic-1">
-            <img src="../Images/IMG_0801.jpeg" alt="femdawgs-nft" width = "150px" height="150px">
+            <!-- <img src="../Images/IMG_0801.jpeg" alt="femdawgs-nft" width = "150px" height="150px"> -->
           </div>  
 
           <div class="pic-2">
-            <img src="../Images/IMG_1270.jpeg" alt="femdawgs-nft" width = "150px" height="150px">
+            <!-- <img src="../Images/IMG_1270.jpeg" alt="femdawgs-nft" width = "150px" height="150px"> -->
           </div>  
 
           <div class="pic-3">
-            <img src="../Images/IMG_1148.jpeg" alt="femdawgs-nft" width = "150px" height="150px">
+            <!-- <img src="../Images/IMG_1148.jpeg" alt="femdawgs-nft" width = "150px" height="150px"> -->
           </div> 
 
 
@@ -510,8 +585,8 @@
 
 
 .twitter{
-  width: 100px;
-  min-height: 50px;
+  width: 10vw;
+  min-height: 5vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -519,7 +594,7 @@
   background-color: rgb(0, 183, 255);
   border-radius: 5px 5px;
   border-style:solid;
-  font-size: large;
+  font-size: 2vw;
   font-family: 'Amatic SC', cursive;
   font-weight: 900;
 
@@ -527,16 +602,11 @@
 
 .twitter a:hover{
   cursor: pointer;
-  padding: 10px;
-  font-family: 'Amatic SC', cursive;
   color: rgb(247, 0, 161);
-  font-weight: 900;
 }
 
 .twitter a:active{
-  font-family: 'Amatic SC', cursive;
   color: rgb(141, 1, 92);
-  font-weight: 900;
 }
 
 .twitter a{
@@ -545,34 +615,29 @@
 }
 
 .discord{
-  width: 100px;
-  min-height: 50px;
+  width: 10vw;
+  min-height: 5vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   background-color: rgb(128, 81, 215);
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: 2vw;
+  margin-right: 2vw;
   border-radius: 5px 5px;
   border-style: solid;
-  font-size: large;
+  font-size: 2vw;
   font-family: 'Amatic SC', cursive;
   font-weight: 900;
 }
 
 .discord a:hover{
   cursor: pointer;
-  padding: 10px;
-  font-family: 'Amatic SC', cursive;
   color: rgb(247, 0, 161);
-  font-weight: 900;
 }
 
 .discord a:active{
-  font-family: 'Amatic SC', cursive;
   color: rgb(141, 1, 92);
-  font-weight: 900;
 }
 
 .discord a{
@@ -622,8 +687,8 @@
 }
 
 .team-member1-pic{
-  min-height: 300px;
-  min-width: 300px;
+  min-height: 20vw;
+  min-width: 20vw;
   background-image: url(../Images/IMG_3396.jpeg);
   background-size: cover;
   border-radius: 25% 25%;
@@ -644,8 +709,8 @@ padding-right: 5%;
 }
 
 .team-member2-pic{
-  min-height: 300px;
-  min-width: 300px;
+  min-height: 20vw;
+  min-width: 20vw;
   background-image: url(../Images/IMG_1709.jpeg);
   background-size: cover;
   border-radius: 25% 25%;
@@ -653,8 +718,8 @@ padding-right: 5%;
 }
 
 .team-member3-pic{
-  min-height: 300px;
-  min-width: 300px;
+  min-height: 20vw;
+  min-width: 20vw;
   background-image: url(../Images/IMG_1710.jpeg);
   background-size: cover;
   border-radius: 25% 25%;
@@ -662,14 +727,12 @@ padding-right: 5%;
 }
 
 .team-member-description a:hover{
-  font-size:xx-large;
   font-family: 'Amatic SC', cursive;
   color: rgb(247, 0, 161);
   font-weight: 900;
 }
 
 .team-member-description a:active{
-  font-size:xx-large;
   font-family: 'Amatic SC', cursive;
   color: rgb(141, 1, 92);
   font-weight: 900;
@@ -679,7 +742,6 @@ padding-right: 5%;
   text-decoration: none;
   color: rgb(60, 59, 59);
 }
-
 
 .menu-text:hover{
   color: rgb(247, 0, 161);
@@ -710,7 +772,7 @@ justify-content: center;
 }
 
 .container{
-  scroll-snap-type: y mandatory;
+  /* scroll-snap-type: y mandatory; */
   overflow-y: scroll;
   height: 100vh;
   scroll-behavior: smooth;
@@ -721,7 +783,7 @@ justify-content: center;
   position: absolute;
   bottom: 20px;
   right: 20px;
-  font-size: 500%;
+  font-size: 6vw;
   z-index: 1;
   background-color: rgb(63, 68, 68);
   border-radius: 30% 30%;
@@ -765,22 +827,37 @@ scroll-snap-align: start;
   background-image: url(../Images/BlueClouds.PNG);
   height: 200vh;
   box-shadow: inset 3px 3px 10px rgb(32, 35, 72), inset -3px -3px 10px rgb(32, 35, 72);
+  display: flex;
+  flex-direction: column;
+  padding-bottom: -5%;
 }
 
 #five{
   background-image: url(../Images/PinkClouds.PNG);
-  height: 200vh;
+  height: 100vh;
   box-shadow: inset 3px 3px 10px rgb(32, 35, 72), inset -3px -3px 10px rgb(32, 35, 72);
+  display: flex;
+  flex-direction: column;
+  padding-bottom: -5%;
 }
 
 #six{
   background-image: url(../Images/BlueClouds.PNG);
-  height: 100vh;
+  height: 150vh;
   box-shadow: inset 3px 3px 10px rgb(32, 35, 72), inset -3px -3px 10px rgb(32, 35, 72);
+  display: flex;
+  flex-direction: column;
+  padding-bottom: -5%;
 }
 
 #seven{
   background-image: url(../Images/PinkClouds.PNG);
+  height: 100vh;
+  box-shadow: inset 3px 3px 10px rgb(32, 35, 72), inset -3px -3px 10px rgb(32, 35, 72);
+}
+
+#eight{
+  background-image: url(../Images/BlueClouds.PNG);
   height: 100vh;
   box-shadow: inset 3px 3px 10px rgb(32, 35, 72), inset -3px -3px 10px rgb(32, 35, 72);
   display: flex;
@@ -800,7 +877,7 @@ scroll-snap-align: start;
 }
 
 .menu-text{
-  font-size:xx-large;
+  font-size: 4vw;
   color: rgb(60, 59, 59);
   cursor: pointer;
   padding: 10px;
@@ -809,18 +886,12 @@ scroll-snap-align: start;
 }
 
 .menu a:hover{
-  font-size:xx-large;
   cursor: pointer;
-  padding: 10px;
-  font-family: 'Amatic SC', cursive;
   color: rgb(247, 0, 161);
   font-weight: 900;
 }
 
 .menu a:active{
-  font-size:xx-large;
-  padding: 10px;
-  font-family: 'Amatic SC', cursive;
   color: rgb(141, 1, 92);
   font-weight: 900;
 }
@@ -830,16 +901,10 @@ scroll-snap-align: start;
   color: rgb(60, 59, 59);
 }
 
-
-.menu-text:hover{
-  color: rgb(247, 0, 161);
-  font-weight: 900;
-}
-
-.femdawgs-title{
-  text-shadow: 2px 2px black;
+.left-title{
+  text-shadow: 1px 1px black;
   font-family: 'Bad Script', cursive;
-  font-size: 800%;
+  font-size: 10vw;
   color: rgb(60, 59, 59);
   margin-bottom: -5%;
   
@@ -855,7 +920,7 @@ scroll-snap-align: start;
 
 .femdawgs-description{
   font-family: 'Amatic SC', cursive;
-  font-size: 200%;
+  font-size: 3vw;
   font-weight: 900;
   color: rgb(60, 59, 59);
   text-align: left;
@@ -863,8 +928,8 @@ scroll-snap-align: start;
 }
 
 .femdawgs-gif{
-  min-height: 300px;
-  min-width: 300px;
+  min-height: 40vh;
+  min-width: 40vh;
   background-image: url(../Images/femdawgs-gif.png);
   background-size: cover;
   border-radius: 25% 25%;
@@ -874,31 +939,39 @@ scroll-snap-align: start;
 
 .femdawgs-description-images{
   display: flex;
-  height: 153px;
-  padding-right: 5%;
+  padding-top: 5%;
 }
 
 .pic-1{
+  background-image: url(../Images/IMG_0801.jpeg);
+  height: 15vw;
+  width: 15vw;
   border: #2a2950;
   border-style: solid;
   transform: rotate(-15deg);
 }
 
 .pic-2{
+  background-image: url(../Images/IMG_1270.jpeg);
+  height: 15vw;
+  width: 15vw;
   border: #2a2950;
   border-style: solid;
   padding-left: -2rem;
 }
 
 .pic-3{
+  background-image: url(../Images/IMG_1148.jpeg);
+  height: 15vw;
+  width: 15vw;
   border: #2a2950;
   border-style: solid;
-  padding-left: -2rem;
+  padding-left: -2rem; 
   transform: rotate(15deg);
 }
 
 .bones{
-height:400px;
+height:30vw;
 background-image: url(../Images/IMG_3367.jpeg);
 background-size: cover;
 }
@@ -906,20 +979,19 @@ background-size: cover;
 .sub-title{
   display: flex;
   align-items: flex-start;
-  text-shadow: 2px 2px black;
+  text-shadow: 1px 1px black;
   font-family: 'Bad Script', cursive;
-  font-size: 800%;
+  font-size: 10vw;
   color: rgb(60, 59, 59);
   padding-left: 5%;
   margin-bottom: -5%;
   padding-right: 5%;
   width: 70%;
-  
 }
 
 .vision-description{
   font-family: 'Amatic SC', cursive;
-  font-size: 200%;
+  font-size: 3vw;
   font-weight: 900;
   color: rgb(60, 59, 59);
   text-align: left;
@@ -930,7 +1002,7 @@ background-size: cover;
 .banner{
   overflow: hidden;
   display: flex;
-  padding-top: 5%;
+  padding-top: 3vh;
 }
 
 .banner1{
@@ -948,12 +1020,13 @@ background-size: cover;
 }
 
 .tennis{
-height:400px;
+height:30vw;
 background-image: url(../Images/IMG_3369.jpeg);
 background-size: cover;
 }
 
 .teddy-description-and-picture{
+  margin-top: 5%;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -972,65 +1045,77 @@ background-size: cover;
 
 .teddy-picture{
   margin-right: 5%;
-  clip-path: inset(20px 20px 50px round 15px);
+  min-height: 40vh;
+  min-width: 40vh;
+  background-image: url(../Images/IMG_0081.jpeg);
+  background-size: cover;
+  border-radius: 25% 25%;
+  border-style: solid;
 }
 
 .rope{
-height:400px;
+height:30vw;
 background-image: url(../Images/IMG_3371.jpeg);
 background-size: cover;
+}
+
+.roadtrip{
+height:30vw;
+background-image: url(../Images/IMG_3468.jpeg);
+background-size: cover;
+}
+
+.roamap-total{
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
 }
 
 .roadmap1{
   display: flex;
   margin: 5%;
   align-items: center;
-  justify-content: left;
+  justify-content: center;
 }
 
 .roadmap1-number{
   display: flex;
   margin-right: 5%;
-  background-color: rgb(60, 59, 59);
-  width: 80px;
-  height: 80px;
   justify-content: center;
   align-items: center;
   position: relative;
-  color: azure;
-  border-radius: 50% 50%;
+  color: rgb(60, 59, 59);
   font-family: 'Damion', cursive;
-  font-size: 200%;
-  border-style: solid;
-  border-color: black;
+  font-size: 10vh;
 }
 
 .roadmap1-description{
-  padding-top: 1%;
   padding-left: 2%;
   padding-right: 2%;
-  padding-bottom: 1%;
-  background-color: rgba(236, 247, 124);
+  background-color: rgb(231, 197, 246);
   border-radius: 25px 25px;
   border-style: solid;
   border-color: black;
-  width: 100%;
+  width: 80%;
 }
 
 .roadmap1-description-title{
   font-family: 'Bad Script', cursive;
-  font-size: 200%;
+  font-size: 4vh;
   color: rgb(60, 59, 59);
+  font-weight: 1000;
 }
 
 .roadmap1-description-content{
   font-family: 'Amatic SC', cursive;
-  font-size: 175%;
+  font-size: 3vh;
   color: rgb(60, 59, 59);
+  font-weight: 800;
 }
 
 .collar{
-height:400px;
+height:30vw;
 background-image: url(../Images/IMG_3374.jpeg);
 background-size: cover;
 }
@@ -1039,60 +1124,93 @@ background-size: cover;
   display: flex;
   margin: 5%;
   align-items: center;
-  justify-content: left;
+  justify-content: center;
+}
+
+.puplist-content{
+display: flex;
+flex-direction: row;
+padding-top: 5%;
+height: fit-content;
+}
+
+.puplist-description{
+  font-family: 'Amatic SC', cursive;
+  width: 100%;
+  height: 100%;
+  font-size: 2.2vw;
+  color: rgb(60, 59, 59);
+  font-weight: 1000;
+  text-align: left;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.puplist-img{
+  background-image: url(../Images/IMG_3527.jpeg);
+  background-size:contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  margin-right: 5%;
+}
+
+.puplist-description a:hover{
+  font-family: 'Amatic SC', cursive;
+  color: rgb(247, 0, 161);
+  font-weight: 900;
+}
+
+.puplist-description a:active{
+  font-family: 'Amatic SC', cursive;
+  color: rgb(141, 1, 92);
+  font-weight: 900;
+}
+
+.puplist-description a{
+  text-decoration: none;
+  color: rgb(60, 59, 59);
 }
 
 .faq-number{
   display: flex;
   margin-right: 5%;
-  background-color: rgb(60, 59, 59);
-  width: 80px;
-  height: 80px;
   justify-content: center;
   align-items: center;
   position: relative;
-  color: azure;
-  border-radius: 50% 50%;
+  color: rgb(60, 59, 59);
   font-family: 'Damion', cursive;
-  font-size: 200%;
-  border-style: solid;
-  border-color: black;
+  font-size: 10vh;
 }
 
 .faq-description{
-  padding-top: 1%;
+  /* padding-top: 1%; */
   padding-left: 2%;
   padding-right: 2%;
-  padding-bottom: 1%;
-  background-color: rgb(179, 250, 248);
+  /* padding-bottom: 1%; */
+  background-color: rgb(231, 197, 246);
   border-radius: 25px 25px;
   border-style: solid;
   border-color: black;
-  width: 100%;
+  width: 80%;
 }
 
 .faq-description-title{
   font-family: 'Bad Script', cursive;
-  font-size: 200%;
+  font-size: 4vh;
   color: rgb(60, 59, 59);
+  font-weight: 1000;
 }
 
 .faq-description-content{
   font-family: 'Amatic SC', cursive;
-  font-size: 175%;
+  font-size: 3vh;
   color: rgb(60, 59, 59);
+  font-weight: 800;
 }
 
 
-@media screen and (max-width: 1100px) {
-  
-  .femdawgs-title{
-  text-shadow: 1px 1px black;
-  font-family: 'Bad Script', cursive;
-  font-size: 450%;
-  color: rgb(60, 59, 59);
-  margin-bottom: 0%;
-  }
+@media screen and (max-width: 850px) {
   
   .femdawgs-description-and-images{
     flex-direction: column;
@@ -1100,39 +1218,20 @@ background-size: cover;
   }
 
   .femdawgs-description{
-  font-family: 'Amatic SC', cursive;
-  font-size: 170%;
-  font-weight: 900;
-  color: rgb(60, 59, 59);
   text-align: center;
+  font-size: 3vh;
+  padding-bottom: 5%;
   }
 
   .femdawgs-gif{
-  min-height: 200px;
-  min-width: 200px;
-  background-image: url(../Images/femdawgs-gif.png);
-  background-size: cover;
-  border-radius: 25% 25%;
-  border-style: solid;
-  
-}
-
-  .femdawgs-description-images{
-  display: flex;
-  height: 153px;
-  padding-right: 5%;
-  padding-top: 5%;
-  padding-left: 5%;
+  height: 35vh;
+  width: 35vh;
   }
 
   .one{
   height: fit-content;
   justify-content: center;
   align-items: center;
-  }
-
-  #five{
-    height:165vh;
   }
 
   .banner{
@@ -1142,25 +1241,19 @@ background-size: cover;
 }
 
 .sub-title{
-  display: flex;
-  align-items: flex-start;
   text-shadow: 1px 1px black;
-  font-family: 'Bad Script', cursive;
-  font-size: 450%;
-  color: rgb(60, 59, 59);
-  padding-left: 5%;
-  margin-bottom: -2%;
-  
+  margin-bottom: 0;
 }
 
 .vision-description{
   font-family: 'Amatic SC', cursive;
-  font-size: 170%;
+  font-size: 3vh;
   font-weight: 900;
   color: rgb(60, 59, 59);
   text-align: center;
   padding-left: 5%;
   padding-right: 5%;
+  padding-bottom: 5%;
 }
 
 .teddy-description-and-picture{
@@ -1168,11 +1261,12 @@ background-size: cover;
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
+  margin-top: 0;
 }
 
 .teddy-description{
   font-family: 'Amatic SC', cursive;
-  font-size: 170%;
+  font-size: 3vh;
   font-weight: 900;
   color: rgb(60, 59, 59);
   text-align: left;
@@ -1183,18 +1277,68 @@ background-size: cover;
 }
 
 .teddy-picture{
-  margin-right: 5%;
-  clip-path: inset(20px 20px 50px round 15px);
-  height: 330px;
+  margin-top: 5%;
+  margin-right: 0;
+  height: 5vh;
 }
 
-.team-member1-pic{
-  min-height: 200px;
-  min-width: 200px;
-  background-image: url(../Images/IMG_3396.jpeg);
-  background-size: cover;
-  border-radius: 25% 25%;
-  border-style: solid;
+.femdawgs-description-images{
+  flex-direction: column;
+}
+
+.puplist-content{
+flex-direction: column;
+padding: 5%;
+align-items: center;
+justify-content: center;
+}
+
+.puplist-description{
+  font-size: 2.2vw;
+}
+
+.puplist-img{
+  background-image: url(../Images/IMG_3527.jpeg);
+  background-size:contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 30vh;
+  margin-right: 0%;
+  position: top;
+  margin-left: 40vw;
+}
+
+.pic-1{
+  height: 15vh;
+  width: 15vh;
+}
+
+.pic-2{
+  height: 15vh;
+  width: 15vh;
+}
+
+.pic-3{
+  height: 15vh;
+  width: 15vh;
+}
+
+}
+
+
+@media screen and (max-width: 600px) {
+
+#four{
+  height: 180vh;
+}
+
+#five{
+  height: 90vh;
+}
+
+
+#six{
+  height: 120vh;
 }
 
 .team-member-description{
@@ -1204,233 +1348,38 @@ background-size: cover;
   font-weight:600;
 }
 
+.team-members{
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.team-member1{
+  padding-right: 0%;
+}
+
+.team-member2{
+  padding-right: 0%;
+}
+
+.team-member1-pic{
+  min-height: 18vh;
+  min-width: 18vh;
+}
+
 .team-member2-pic{
-  min-height: 200px;
-  min-width: 200px;
-  background-image: url(../Images/IMG_1709.jpeg);
-  background-size: cover;
-  border-radius: 25% 25%;
-  border-style: solid;
+  min-height: 18vh;
+  min-width: 18vh;
 }
 
 .team-member3-pic{
-  min-height: 200px;
-  min-width: 200px;
-  background-image: url(../Images/IMG_1710.jpeg);
-  background-size: cover;
-  border-radius: 25% 25%;
-  border-style: solid;
+  min-height: 18vh;
+  min-width: 18vh;
 }
 
 }
 
-@media screen and (max-width: 685px) {
 
-  .team-members{
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .team-member1{
-  display: flex;
-  flex-direction: column;
-  padding-right: 0%;
-  }
-  
-  .team-member2{
-  display: flex;
-  flex-direction: column;
-  padding-right: 0%;
-  }
-
-  .team-member1-pic{
-    min-height: 100px;
-    min-width: 100px;
-    background-image: url(../Images/IMG_3396.jpeg);
-    background-size: cover;
-    border-radius: 25% 25%;
-    border-style: solid;
-  }
-
-  .team-member2-pic{
-    min-height: 100px;
-    min-width: 100px;
-    background-image: url(../Images/IMG_1709.jpeg);
-    background-size: cover;
-    border-radius: 25% 25%;
-    border-style: solid;
-  }
-
-  .team-member3-pic{
-    min-height: 100px;
-    min-width: 100px;
-    background-image: url(../Images/IMG_1710.jpeg);
-    background-size: cover;
-    border-radius: 25% 25%;
-    border-style: solid;
-  }
-
-}
-
-@media screen and (max-width: 592px) {
-  .teddy-picture{
-  margin-right: 5%;
-  clip-path: inset(20px 20px 50px round 15px);
-  height: 260px;
-}
-
-}
-
-/* Phone Ready*/
-
-@media screen and (max-width: 500px) {
-
-  .sub-title{
-    font-size: 300%;
-
-  }
-
-  .femdawgs-description{
-  font-family: 'Amatic SC', cursive;
-  font-size: 120%;
-  font-weight: 900;
-  color: rgb(60, 59, 59);
-  text-align: center;
-  }
-
-  .bones{
-    height: 200px;
-  }
-
-  .vision-description{
-  font-family: 'Amatic SC', cursive;
-  font-size: 120%;
-  font-weight: 900;
-  color: rgb(60, 59, 59);
-  text-align: center;
-}
-
-.tennis{
-  height: 200px;
-}
-
-.teddy-description{
-  font-family: 'Amatic SC', cursive;
-  font-size: 120%;
-  font-weight: 900;
-  color: rgb(60, 59, 59);
-  text-align: left;
-  padding-left: 5%;
-  padding-right: 5%;
-  margin-left: 5%;
-  margin-right: 5%;
-}
-
-.rope{
-  height: 200px;
-}
-
-#four{
-  height: 170vh;
-}
-
-.roadmap1-description-title{
-  font-family: 'Bad Script', cursive;
-  font-size: 140%;
-  color: rgb(60, 59, 59);
-}
-
-.roadmap1-description-content{
-  font-family: 'Amatic SC', cursive;
-  font-size: 130%;
-  color: rgb(60, 59, 59);
-}
-
-.collar{
-  height: 200px;
-}
-
-#five{
-  height: 150vh;
-}
-
-.faq-description-title{
-  font-family: 'Bad Script', cursive;
-  font-size: 140%;
-  color: rgb(60, 59, 59);
-}
-
-.faq-description-content{
-  font-family: 'Amatic SC', cursive;
-  font-size: 130%;
-  color: rgb(60, 59, 59);
-}
-
-.femdawgs-description-images{
-  display: flex;
-  height: 153px;
-  /* padding-right: 5%; */
-}
-
-  .team-members{
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-  }
-  .team-member1{
-    padding-right: 1%;
-  }
-
-  .team-member2{
-    padding-right: 1%;
-  }
-
-  .menu-text{
-  font-size:large;
-  color: rgb(60, 59, 59);
-  cursor: pointer;
-  padding: 10px;
-  font-family: 'Amatic SC', cursive;
-  font-weight:600;
-}
-
-.menu a:hover{
-  font-size:large;
-  cursor: pointer;
-  padding: 10px;
-  font-family: 'Amatic SC', cursive;
-  color: rgb(247, 0, 161);
-  font-weight: 900;
-}
-
-.menu a:active{
-  font-size:large;
-  padding: 10px;
-  font-family: 'Amatic SC', cursive;
-  color: rgb(141, 1, 92);
-  font-weight: 900;
-}
-
-.widgets{
-  display: flex;
-  flex-direction: row;
-  justify-content: right;
-  align-items: flex-end;
-}
-
-.twitter{
-  width: fit-content;
-  height: 20px;
-}
-
-.discord{
-  width: fit-content;
-  margin-right: 0%;
-  height: 20px;
-}
-
-}
 
 @keyframes slide {
 
