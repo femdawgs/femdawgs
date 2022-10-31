@@ -1328,9 +1328,9 @@ justify-content: center;
 
 @media screen and (max-width: 600px) {
 
-#four{
+/* #four{
   height: 180vh;
-}
+} */
 
 #five{
   height: 90vh;
@@ -1375,6 +1375,11 @@ justify-content: center;
 .team-member3-pic{
   min-height: 18vh;
   min-width: 18vh;
+}
+
+.puplist-description{
+font-size: 3vh;
+
 }
 
 }
