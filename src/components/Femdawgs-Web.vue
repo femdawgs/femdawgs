@@ -1272,7 +1272,7 @@ height: fit-content;
   font-size: 3vh;
   font-weight: 900;
   color: rgb(60, 59, 59);
-  text-align: left;
+  text-align: center;
   padding-left: 5%;
   padding-right: 5%;
   margin-left: 5%;
