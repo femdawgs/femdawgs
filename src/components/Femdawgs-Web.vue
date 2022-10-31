@@ -944,6 +944,7 @@ scroll-snap-align: start;
 
 .pic-1{
   background-image: url(../Images/IMG_0801.jpeg);
+  background-size: cover;
   height: 15vw;
   width: 15vw;
   border: #2a2950;
@@ -953,6 +954,7 @@ scroll-snap-align: start;
 
 .pic-2{
   background-image: url(../Images/IMG_1270.jpeg);
+  background-size: cover;
   height: 15vw;
   width: 15vw;
   border: #2a2950;
@@ -962,6 +964,7 @@ scroll-snap-align: start;
 
 .pic-3{
   background-image: url(../Images/IMG_1148.jpeg);
+  background-size: cover;
   height: 15vw;
   width: 15vw;
   border: #2a2950;
