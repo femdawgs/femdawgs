@@ -134,14 +134,16 @@
       </div>
 
       <div class="banner">
-        
-        <div class="banner1">
-          <img src="../Images/IMG_1692.jpeg" alt="">
-        </div>
 
-        <div class="banner2">
-          <img src="../Images/IMG_1692.jpeg" alt="">
-        </div>
+        <!-- <img src="../Images/banner.png" alt=""> -->
+        
+        <!-- <div class="banner1">
+          <img src="../Images/banner.png" alt="">
+        </div> -->
+
+        <!-- <div class="banner2">
+          <img src="../Images/IMG_1692.jpeg" alt=""> 
+        </div> -->
 
       </div>
 
@@ -382,7 +384,8 @@
             </div>
 
             <div class="faq-description-content">
-              Mint date TBD! <br>
+              Puplist Mint: Dec 13th at 3PM UTC <br>
+              Public Mint: Dec 14th at 3PM UTC
               
             </div>
 
@@ -401,7 +404,7 @@
             </div>
 
             <div class="faq-description-content">
-              Mint price TBD! <br>
+              34 ADA <br>
               
             </div>
 
@@ -485,6 +488,10 @@
           </div>
         </div>
 
+      </div>
+
+      <div class="doxxed">
+        *Team is doxxed via <a href="https://twitter.com/TedNationNFT">@TedNationNFT</a>
       </div>
 
 
@@ -583,6 +590,29 @@
 <style scoped>
 
 
+.doxxed{
+  padding-top: 2%;
+  padding-left: 5%;
+  font-family: 'Amatic SC', cursive;
+  font-size: 3vw;
+  font-weight: 900;
+  color: rgb(60, 59, 59);
+  text-align: left;
+}
+
+.doxxed a:hover{
+  cursor: pointer;
+  color: rgb(247, 0, 161);
+}
+
+.doxxed a:active{
+  color: rgb(141, 1, 92);
+}
+
+.doxxed a{
+  text-decoration: none;
+  color: rgb(60, 59, 59);
+}
 
 .twitter{
   width: 10vw;
@@ -843,7 +873,7 @@ scroll-snap-align: start;
 
 #six{
   background-image: url(../Images/BlueClouds.PNG);
-  height: 150vh;
+  height: 170vh;
   box-shadow: inset 3px 3px 10px rgb(32, 35, 72), inset -3px -3px 10px rgb(32, 35, 72);
   display: flex;
   flex-direction: column;
@@ -1005,22 +1035,29 @@ background-size: cover;
 .banner{
   overflow: hidden;
   display: flex;
-  padding-top: 3vh;
+  background-image: url(../Images/banner.png);
+  background-size: cover;
+  height: 7vw;
+  margin-top: 3vh;
 }
 
-.banner1{
+/* .banner1{
   display: block;
   overflow:visible;
-  width: 1920px;
+  background-image: url(../Images/IMG_1692.jpeg);
+  height: 6.5vw;
+  width: 100vw;
   animation: slide 12s linear infinite;
-}
+} */
 
-.banner2{
+/* .banner2{
   display: block;
   overflow: visible;
-  width: 1920px;
+  background-image: url(../Images/IMG_1692.jpeg);
+  height: 6.5vw;
+  width: 100vw;
   animation: slide 12s linear infinite;
-}
+} */
 
 .tennis{
 height:30vw;
@@ -1141,7 +1178,7 @@ height: fit-content;
   font-family: 'Amatic SC', cursive;
   width: 100%;
   height: 100%;
-  font-size: 2.2vw;
+  font-size: 4vh;
   color: rgb(60, 59, 59);
   font-weight: 1000;
   text-align: left;
@@ -1150,7 +1187,7 @@ height: fit-content;
 }
 
 .puplist-img{
-  background-image: url(../Images/IMG_3527.jpeg);
+  background-image: url(../Images/puplist.gif);
   background-size:contain;
   background-repeat: no-repeat;
   width: 100%;
@@ -1297,11 +1334,11 @@ justify-content: center;
 }
 
 .puplist-description{
-  font-size: 2.2vw;
+  font-size: 3vh;
 }
 
 .puplist-img{
-  background-image: url(../Images/IMG_3527.jpeg);
+  background-image: url(../Images/puplist.gif);
   background-size:contain;
   background-repeat: no-repeat;
   width: 100%;
@@ -1324,24 +1361,6 @@ justify-content: center;
 .pic-3{
   height: 15vh;
   width: 15vh;
-}
-
-}
-
-
-@media screen and (max-width: 600px) {
-
-/* #four{
-  height: 180vh;
-} */
-
-#five{
-  height: 90vh;
-}
-
-
-#six{
-  height: 120vh;
 }
 
 .team-member-description{
@@ -1380,6 +1399,29 @@ justify-content: center;
   min-width: 18vh;
 }
 
+.doxxed{
+  padding-top: 2%;
+  padding-left: 0;
+  text-align: center;
+}
+
+}
+
+
+@media screen and (max-width: 600px) {
+
+/* #four{
+  height: 180vh;
+} */
+
+#five{
+  height: 90vh;
+}
+
+#six{
+  height: 120vh;
+}
+
 .puplist-description{
 font-size: 3vh;
 
@@ -1395,7 +1437,7 @@ font-size: 3vh;
   transform: translate(0);
 }
 100% {
-  transform: translate(-1920px);
+  transform: translate(-100vw);
 }
 
 }
