@@ -1244,7 +1244,7 @@ height: fit-content;
 
   .femdawgs-description{
   text-align: center;
-  font-size: 1.75rem;
+  font-size: 1.5rem;
   padding-bottom: 5%;
   }
 
@@ -1263,7 +1263,7 @@ height: fit-content;
   }
 
   .sub-title{
-    font-size: 4rem;
+    font-size: 3.7rem;
     text-shadow: 1px 1px black;
     margin-bottom: 0;
   }
@@ -1273,7 +1273,7 @@ height: fit-content;
   }
 
   .vision-description{
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     text-align: center;
     padding-bottom: 5%;
   }
@@ -1287,7 +1287,7 @@ height: fit-content;
   }
 
   .teddy-description{
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     text-align: center;
   }
 
@@ -1323,18 +1323,18 @@ height: fit-content;
   }
 
   .pic-1{
-    height: 100px;
-    width: 100px;
+    height: 75px;
+    width: 75px;
   }
 
   .pic-2{
-    height: 100px;
-    width: 100px;
+    height: 75px;
+    width: 75px;
   }
 
   .pic-3{
-    height: 100px;
-    width: 100px;
+    height: 75px;
+    width: 75px;
   }
 
   .team-member1-pic{
@@ -1367,6 +1367,22 @@ height: fit-content;
 
   .doxxed{
   padding-top: 5%;
+  }
+
+  .roadmap1-description-title{
+  font-size: 1.7rem;
+  }
+
+.roadmap1-description-content{
+  font-size: 1.5rem;
+  }
+
+  .faq-description-title{
+  font-size: 1.7rem;
+  }
+
+.faq-description-content{
+  font-size: 1.5rem;
   }
 
 }
