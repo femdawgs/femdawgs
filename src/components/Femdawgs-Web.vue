@@ -2,7 +2,7 @@
   <div class = "container">
 
     <div class="scroll-to-top">
-      <a href="#one">&#8593;</a>
+      <a href="#main">&#8593;</a>
     </div>
 
     <section id="main">
@@ -11,7 +11,7 @@
         <div class="menu-item">
 
           <div class="menu-text">
-            <a href="#two">Vision</a>
+            <a href="#vision">Vision</a>
             
           </div>
           
@@ -20,7 +20,7 @@
         <div class="menu-item">
 
           <div class="menu-text">
-            <a href="#three">Teddy</a>
+            <a href="#teddy">Teddy</a>
           </div>
 
         </div>
@@ -28,23 +28,7 @@
         <div class="menu-item">
 
           <div class="menu-text">
-            <a href="#four">Roadmap</a>
-          </div>
-          
-        </div>
-
-        <div class="menu-item">
-
-          <div class="menu-text">
-            <a href="#five">Puplist</a>
-          </div>
-
-        </div>
-
-        <div class="menu-item">
-
-          <div class="menu-text">
-            <a href="#six">FAQ</a>
+            <a href="#roadmap">Roadmap</a>
           </div>
           
         </div>
@@ -52,7 +36,7 @@
         <div class="menu-item">
 
           <div class="menu-text">
-            <a href="#seven">Team</a>
+            <a href="#puplist">Puplist</a>
           </div>
 
         </div>
@@ -60,7 +44,23 @@
         <div class="menu-item">
 
           <div class="menu-text">
-            <a href="#eight">Mint</a>
+            <a href="#faq">FAQ</a>
+          </div>
+          
+        </div>
+
+        <div class="menu-item">
+
+          <div class="menu-text">
+            <a href="#team">Team</a>
+          </div>
+
+        </div>
+
+        <div class="menu-item">
+
+          <div class="menu-text">
+            <a href="#mint">Mint</a>
           </div>
 
         </div>
