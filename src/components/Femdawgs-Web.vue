@@ -1390,14 +1390,14 @@ height: fit-content;
   .twitter{
     width:3rem;
     height:1.2rem;
-    font-size:1.2rem;
+    font-size:1rem;
 
   }
 
   .discord{
     width:3rem;
     height:1.2rem;
-    font-size:1.2rem;
+    font-size:1rem;
 
   }
 
