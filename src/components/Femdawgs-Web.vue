@@ -803,7 +803,7 @@ justify-content: center;
   position: absolute;
   bottom: 20px;
   right: 20px;
-  font-size: 6vw;
+  font-size: 3rem;
   z-index: 1;
   background-color: rgb(63, 68, 68);
   border-radius: 30% 30%;
