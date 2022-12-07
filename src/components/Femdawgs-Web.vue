@@ -5,7 +5,7 @@
       <a href="#one">&#8593;</a>
     </div>
 
-    <section id="one">
+    <section id="main">
       <div class="menu">
 
         <div class="menu-item">
@@ -118,7 +118,7 @@
     </section>
 
 
-    <section id="two">
+    <section id="vision">
       <div class="sub-title">
         Vision
 
@@ -156,7 +156,7 @@
     </section>
 
 
-    <section id="three">
+    <section id="teddy">
       <div class="sub-title">
         Meet Teddy
       </div>
@@ -182,7 +182,7 @@
       </div>
     </section>
 
-    <section id="four">
+    <section id="roadmap">
       <div class="sub-title">
         Road Map
       </div>
@@ -190,7 +190,7 @@
       <div class="roadmap-total">
         <div class="roadmap1">
           <div class="roadmap1-number">
-            1
+            1.
           </div>
 
           <div class="roadmap1-description">
@@ -209,7 +209,7 @@
 
         <div class="roadmap1">
           <div class="roadmap1-number">
-            2
+            2.
           </div>
 
           <div class="roadmap1-description">
@@ -232,7 +232,7 @@
     
         <div class="roadmap1">
           <div class="roadmap1-number">
-            3
+            3.
           </div>
 
           <div class="roadmap1-description">
@@ -251,7 +251,7 @@
 
         <div class="roadmap1">
           <div class="roadmap1-number">
-            4
+            4.
           </div>
 
           <div class="roadmap1-description">
@@ -270,7 +270,7 @@
 
         <div class="roadmap1">
           <div class="roadmap1-number">
-            5
+            5.
           </div>
 
           <div class="roadmap1-description">
@@ -290,7 +290,7 @@
 
         <div class="roadmap1">
           <div class="roadmap1-number">
-            6
+            6.
           </div>
 
           <div class="roadmap1-description">
@@ -317,7 +317,7 @@
       </div>
     </section>
 
-    <section id = "five">
+    <section id = "puplist">
       <div class="sub-title">
         Puplist
       </div>
@@ -348,7 +348,7 @@
       </div>
     </section>
 
-    <section id="six">
+    <section id="faq">
       <div class="sub-title">
         FAQ
       </div>
@@ -356,7 +356,7 @@
       <div class="faq-total">
         <div class="faq">
           <div class="faq-number">
-            1
+            1.
           </div>
 
           <div class="faq-description">
@@ -375,7 +375,7 @@
 
         <div class="faq">
           <div class="faq-number">
-            2
+            2.
           </div>
 
           <div class="faq-description">
@@ -395,7 +395,7 @@
 
         <div class="faq">
           <div class="faq-number">
-            3
+            3.
           </div>
 
           <div class="faq-description">
@@ -414,7 +414,7 @@
 
         <div class="faq">
           <div class="faq-number">
-            4
+            4.
           </div>
 
           <div class="faq-description">
@@ -433,7 +433,7 @@
 
         <div class="faq">
           <div class="faq-number">
-            5
+            5.
           </div>
 
           <div class="faq-description">
@@ -454,7 +454,7 @@
 
     </section>
 
-    <section id="seven">
+    <section id="team">
       <div class="sub-title">
         Team
       </div>
@@ -497,7 +497,7 @@
 
     </section>
 
-    <section id="eight">
+    <section id="mint">
       <div class="left-title">
         Mint - soon
       </div>
@@ -594,7 +594,7 @@
   padding-top: 2%;
   padding-left: 5%;
   font-family: 'Amatic SC', cursive;
-  font-size: 3vw;
+  font-size: 2rem;
   font-weight: 900;
   color: rgb(60, 59, 59);
   text-align: left;
@@ -690,18 +690,6 @@
   align-items: flex-end;
 }
 
-.team-title{
-  display: flex;
-  align-items: flex-start;
-  text-shadow: 3px 3px black;
-  font-family: 'Bad Script', cursive;
-  font-size: 800%;
-  color: rgb(60, 59, 59);
-  padding-left: 5%;
-  margin-bottom: -5%;
-  
-}
-
 .team-members{
   display: flex;
   margin: 1%;
@@ -717,8 +705,8 @@
 }
 
 .team-member1-pic{
-  min-height: 20vw;
-  min-width: 20vw;
+  min-height: 200px;
+  min-width: 200px;
   background-image: url(../Images/IMG_3396.jpeg);
   background-size: cover;
   border-radius: 25% 25%;
@@ -726,7 +714,7 @@
 }
 
 .team-member-description{
-  font-size:xx-large;
+  font-size:2rem;
   color: rgb(60, 59, 59);
   font-family: 'Amatic SC', cursive;
   font-weight:600;
@@ -739,8 +727,8 @@ padding-right: 5%;
 }
 
 .team-member2-pic{
-  min-height: 20vw;
-  min-width: 20vw;
+  min-height: 200px;
+  min-width: 200px;
   background-image: url(../Images/IMG_1709.jpeg);
   background-size: cover;
   border-radius: 25% 25%;
@@ -748,8 +736,8 @@ padding-right: 5%;
 }
 
 .team-member3-pic{
-  min-height: 20vw;
-  min-width: 20vw;
+  min-height: 200px;
+  min-width: 200px;
   background-image: url(../Images/IMG_1710.jpeg);
   background-size: cover;
   border-radius: 25% 25%;
@@ -833,62 +821,62 @@ section{
 scroll-snap-align: start;
 }
 
-#one{
+#main{
   background-image: url(../Images/PinkClouds.PNG);
-  height: 100vh;
+  height: 635px;
   box-shadow: inset 3px 3px 10px rgb(32, 35, 72), inset -3px -3px 10px rgb(32, 35, 72);
 }
 
-#two{
+#vision{
   background-image: url(../Images/BlueClouds.PNG);
-  height: 100vh;
+  height: 635px;
   box-shadow: inset 3px 3px 10px rgb(32, 35, 72), inset -3px -3px 10px rgb(32, 35, 72);
 }
 
-#three{
-  height: 100vh;
+#teddy{
+  height: 635px;
   background-image: url(../Images/PinkClouds.PNG);
   background-size: cover;
   background-repeat: no-repeat;
   box-shadow: inset 3px 3px 10px rgb(32, 35, 72), inset -3px -3px 10px rgb(32, 35, 72);
 }
 
-#four{
+#roadmap{
   background-image: url(../Images/BlueClouds.PNG);
-  height: 200vh;
+  height: 1500px;
   box-shadow: inset 3px 3px 10px rgb(32, 35, 72), inset -3px -3px 10px rgb(32, 35, 72);
   display: flex;
   flex-direction: column;
   padding-bottom: -5%;
 }
 
-#five{
+#puplist{
   background-image: url(../Images/PinkClouds.PNG);
-  height: 100vh;
+  height: 635px;
   box-shadow: inset 3px 3px 10px rgb(32, 35, 72), inset -3px -3px 10px rgb(32, 35, 72);
   display: flex;
   flex-direction: column;
   padding-bottom: -5%;
 }
 
-#six{
+#faq{
   background-image: url(../Images/BlueClouds.PNG);
-  height: 170vh;
+  height: 1100px;
   box-shadow: inset 3px 3px 10px rgb(32, 35, 72), inset -3px -3px 10px rgb(32, 35, 72);
   display: flex;
   flex-direction: column;
   padding-bottom: -5%;
 }
 
-#seven{
+#team{
   background-image: url(../Images/PinkClouds.PNG);
-  height: 100vh;
+  height: 635px;
   box-shadow: inset 3px 3px 10px rgb(32, 35, 72), inset -3px -3px 10px rgb(32, 35, 72);
 }
 
-#eight{
+#mint{
   background-image: url(../Images/BlueClouds.PNG);
-  height: 100vh;
+  height: 635px;
   box-shadow: inset 3px 3px 10px rgb(32, 35, 72), inset -3px -3px 10px rgb(32, 35, 72);
   display: flex;
   flex-direction: column;
@@ -934,7 +922,7 @@ scroll-snap-align: start;
 .left-title{
   text-shadow: 1px 1px black;
   font-family: 'Bad Script', cursive;
-  font-size: 10vw;
+  font-size: 7rem;
   color: rgb(60, 59, 59);
   margin-bottom: -5%;
   
@@ -950,7 +938,7 @@ scroll-snap-align: start;
 
 .femdawgs-description{
   font-family: 'Amatic SC', cursive;
-  font-size: 3vw;
+  font-size: 2rem;
   font-weight: 900;
   color: rgb(60, 59, 59);
   text-align: left;
@@ -958,8 +946,8 @@ scroll-snap-align: start;
 }
 
 .femdawgs-gif{
-  min-height: 40vh;
-  min-width: 40vh;
+  min-height: 300px;
+  min-width: 300px;
   background-image: url(../Images/femdawgs-gif.png);
   background-size: cover;
   border-radius: 25% 25%;
@@ -975,8 +963,8 @@ scroll-snap-align: start;
 .pic-1{
   background-image: url(../Images/IMG_0801.jpeg);
   background-size: cover;
-  height: 15vw;
-  width: 15vw;
+  height: 200px;
+  width: 200px;
   border: #2a2950;
   border-style: solid;
   transform: rotate(-15deg);
@@ -985,8 +973,8 @@ scroll-snap-align: start;
 .pic-2{
   background-image: url(../Images/IMG_1270.jpeg);
   background-size: cover;
-  height: 15vw;
-  width: 15vw;
+  height: 200px;
+  width: 200px;
   border: #2a2950;
   border-style: solid;
   padding-left: -2rem;
@@ -995,8 +983,8 @@ scroll-snap-align: start;
 .pic-3{
   background-image: url(../Images/IMG_1148.jpeg);
   background-size: cover;
-  height: 15vw;
-  width: 15vw;
+  height: 200px;
+  width: 200px;
   border: #2a2950;
   border-style: solid;
   padding-left: -2rem; 
@@ -1004,7 +992,7 @@ scroll-snap-align: start;
 }
 
 .bones{
-height:30vw;
+height:170px;
 background-image: url(../Images/IMG_3367.jpeg);
 background-size: cover;
 }
@@ -1014,7 +1002,7 @@ background-size: cover;
   align-items: flex-start;
   text-shadow: 1px 1px black;
   font-family: 'Bad Script', cursive;
-  font-size: 10vw;
+  font-size: 7rem;
   color: rgb(60, 59, 59);
   padding-left: 5%;
   margin-bottom: -5%;
@@ -1024,7 +1012,7 @@ background-size: cover;
 
 .vision-description{
   font-family: 'Amatic SC', cursive;
-  font-size: 3vw;
+  font-size: 2rem;
   font-weight: 900;
   color: rgb(60, 59, 59);
   text-align: left;
@@ -1038,7 +1026,7 @@ background-size: cover;
   background-image: url(../Images/banner.png);
   background-size: cover;
   height: 7vw;
-  margin-top: 3vh;
+  margin-top: 3%;
 }
 
 /* .banner1{
@@ -1060,13 +1048,13 @@ background-size: cover;
 } */
 
 .tennis{
-height:30vw;
+height:170px;
 background-image: url(../Images/IMG_3369.jpeg);
 background-size: cover;
 }
 
 .teddy-description-and-picture{
-  margin-top: 5%;
+  margin-top: 3%;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -1074,19 +1062,18 @@ background-size: cover;
 
 .teddy-description{
   font-family: 'Amatic SC', cursive;
-  font-size: 200%;
+  font-size: 2rem;
   font-weight: 900;
   color: rgb(60, 59, 59);
   text-align: left;
   padding-left: 5%;
   padding-right: 5%;
-  margin-left: 5%;
 }
 
 .teddy-picture{
   margin-right: 5%;
-  min-height: 40vh;
-  min-width: 40vh;
+  min-height: 300px;
+  min-width: 300px;
   background-image: url(../Images/IMG_0081.jpeg);
   background-size: cover;
   border-radius: 25% 25%;
@@ -1094,13 +1081,13 @@ background-size: cover;
 }
 
 .rope{
-height:30vw;
+height:170px;
 background-image: url(../Images/IMG_3371.jpeg);
 background-size: cover;
 }
 
 .roadtrip{
-height:30vw;
+height:170px;
 background-image: url(../Images/IMG_3468.jpeg);
 background-size: cover;
 }
@@ -1127,7 +1114,7 @@ background-size: cover;
   position: relative;
   color: rgb(60, 59, 59);
   font-family: 'Damion', cursive;
-  font-size: 10vh;
+  font-size: 3rem;
 }
 
 .roadmap1-description{
@@ -1142,20 +1129,20 @@ background-size: cover;
 
 .roadmap1-description-title{
   font-family: 'Bad Script', cursive;
-  font-size: 4vh;
+  font-size: 2rem;
   color: rgb(60, 59, 59);
   font-weight: 1000;
 }
 
 .roadmap1-description-content{
   font-family: 'Amatic SC', cursive;
-  font-size: 3vh;
+  font-size: 1.7rem;
   color: rgb(60, 59, 59);
   font-weight: 800;
 }
 
 .collar{
-height:30vw;
+height:170px;
 background-image: url(../Images/IMG_3374.jpeg);
 background-size: cover;
 }
@@ -1178,9 +1165,9 @@ height: fit-content;
   font-family: 'Amatic SC', cursive;
   width: 100%;
   height: 100%;
-  font-size: 4vh;
+  font-size: 1.8rem;
   color: rgb(60, 59, 59);
-  font-weight: 1000;
+  font-weight: 900;
   text-align: left;
   padding-left: 5%;
   padding-right: 5%;
@@ -1190,8 +1177,8 @@ height: fit-content;
   background-image: url(../Images/puplist.gif);
   background-size:contain;
   background-repeat: no-repeat;
-  width: 100%;
-  height: 100%;
+  min-width: 300px;
+  min-height: 300px;
   margin-right: 5%;
 }
 
@@ -1220,14 +1207,12 @@ height: fit-content;
   position: relative;
   color: rgb(60, 59, 59);
   font-family: 'Damion', cursive;
-  font-size: 10vh;
+  font-size: 3rem;
 }
 
 .faq-description{
-  /* padding-top: 1%; */
   padding-left: 2%;
   padding-right: 2%;
-  /* padding-bottom: 1%; */
   background-color: rgb(231, 197, 246);
   border-radius: 25px 25px;
   border-style: solid;
@@ -1237,14 +1222,14 @@ height: fit-content;
 
 .faq-description-title{
   font-family: 'Bad Script', cursive;
-  font-size: 4vh;
+  font-size: 2rem;
   color: rgb(60, 59, 59);
   font-weight: 1000;
 }
 
 .faq-description-content{
   font-family: 'Amatic SC', cursive;
-  font-size: 3vh;
+  font-size: 1.7rem;
   color: rgb(60, 59, 59);
   font-weight: 800;
 }
@@ -1259,186 +1244,191 @@ height: fit-content;
 
   .femdawgs-description{
   text-align: center;
-  font-size: 3vh;
+  font-size: 1.75rem;
   padding-bottom: 5%;
   }
 
   .femdawgs-gif{
-  height: 35vh;
-  width: 35vh;
+  min-height: 200px;
+  min-width: 200px;
   }
 
-  .one{
-  height: fit-content;
+  #main{
   justify-content: center;
   align-items: center;
   }
 
-  .banner{
-  overflow: hidden;
-  display: flex;
-  padding-bottom: 5%;
-}
+  #faq{
+    height:1000px;
+  }
 
-.sub-title{
-  text-shadow: 1px 1px black;
-  margin-bottom: 0;
-}
+  .sub-title{
+    font-size: 4rem;
+    text-shadow: 1px 1px black;
+    margin-bottom: 0;
+  }
 
-.vision-description{
-  font-family: 'Amatic SC', cursive;
-  font-size: 3vh;
-  font-weight: 900;
-  color: rgb(60, 59, 59);
-  text-align: center;
-  padding-left: 5%;
-  padding-right: 5%;
-  padding-bottom: 5%;
-}
+  .left-title{
+    font-size: 4rem;
+  }
 
-.teddy-description-and-picture{
-  display: flex;
+  .vision-description{
+    font-size: 1.7rem;
+    text-align: center;
+    padding-bottom: 5%;
+  }
+
+  .teddy-description-and-picture{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 0;
+  }
+
+  .teddy-description{
+    font-size: 1.7rem;
+    text-align: center;
+  }
+
+  .teddy-picture{
+    margin-top: 5%;
+    margin-right: 0;
+    min-height: 200px;
+    min-width: 200px;
+  }
+
+  .femdawgs-description-images{
+    flex-direction: column;
+  }
+
+  .puplist-content{
   flex-direction: column;
+  padding: 5%;
   align-items: center;
-  justify-content: space-around;
-  margin-top: 0;
-}
+  justify-content: center;
+  }
 
-.teddy-description{
-  font-family: 'Amatic SC', cursive;
-  font-size: 3vh;
-  font-weight: 900;
-  color: rgb(60, 59, 59);
-  text-align: center;
-  padding-left: 5%;
-  padding-right: 5%;
-  margin-left: 5%;
-  margin-right: 5%;
-}
+  .puplist-description{
+    font-size: 1.4rem;
+  }
 
-.teddy-picture{
-  margin-top: 5%;
-  margin-right: 0;
-  height: 5vh;
-}
+  .puplist-img{
+    background-image: url(../Images/puplist.gif);
+    background-size:contain;
+    background-repeat: no-repeat;
+    min-width: 200px;
+    min-height: 200px;
+    margin-right: 0%;
+  }
 
-.femdawgs-description-images{
-  flex-direction: column;
-}
+  .pic-1{
+    height: 100px;
+    width: 100px;
+  }
 
-.puplist-content{
-flex-direction: column;
-padding: 5%;
-align-items: center;
-justify-content: center;
-}
+  .pic-2{
+    height: 100px;
+    width: 100px;
+  }
 
-.puplist-description{
-  font-size: 3vh;
-}
+  .pic-3{
+    height: 100px;
+    width: 100px;
+  }
 
-.puplist-img{
-  background-image: url(../Images/puplist.gif);
-  background-size:contain;
-  background-repeat: no-repeat;
-  width: 100%;
-  height: 30vh;
-  margin-right: 0%;
-  position: top;
-  margin-left: 40vw;
-}
+  .team-member1-pic{
+    min-height: 120px;
+    min-width: 120px;
+    height: 120px;
+    width: 120px;
+  }
 
-.pic-1{
-  height: 15vh;
-  width: 15vh;
-}
+  .team-member2-pic{
+    min-height: 120px;
+    min-width: 120px;
+    height: 120px;
+    width: 120px;
+  }
 
-.pic-2{
-  height: 15vh;
-  width: 15vh;
-}
+  .team-member3-pic{
+    min-height: 120px;
+    min-width: 120px;
+    height: 120px;
+    width: 120px;
+  }
 
-.pic-3{
-  height: 15vh;
-  width: 15vh;
-}
-
-.team-member-description{
+  .team-member-description{
   font-size:large;
   color: rgb(60, 59, 59);
   font-family: 'Amatic SC', cursive;
   font-weight:600;
-}
+  }
 
-.team-members{
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.team-member1{
-  padding-right: 0%;
-}
-
-.team-member2{
-  padding-right: 0%;
-}
-
-.team-member1-pic{
-  min-height: 18vh;
-  min-width: 18vh;
-}
-
-.team-member2-pic{
-  min-height: 18vh;
-  min-width: 18vh;
-}
-
-.team-member3-pic{
-  min-height: 18vh;
-  min-width: 18vh;
-}
-
-.doxxed{
-  padding-top: 2%;
-  padding-left: 0;
-  text-align: center;
-}
+  .doxxed{
+  padding-top: 5%;
+  }
 
 }
 
+@media screen and (max-width: 550px) {
 
-@media screen and (max-width: 600px) {
+  #team{
+    height: 730px;
+  }
+    .team-member-description{
+    font-size:large;
+    color: rgb(60, 59, 59);
+    font-family: 'Amatic SC', cursive;
+    font-weight:600;
+  }
 
-/* #four{
-  height: 180vh;
-} */
+  .team-members{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
 
-#five{
-  height: 90vh;
+  .team-member1{
+    padding-right: 0%;
+  }
+
+  .team-member2{
+    padding-right: 0%;
+  }
+
+  .team-member1-pic{
+    min-height: 120px;
+    min-width: 120px;
+  }
+
+  .team-member2-pic{
+    min-height: 120px;
+    min-width: 120px;
+  }
+
+  .team-member3-pic{
+    min-height: 120px;
+    min-width: 120px;
+  }
+
+  .doxxed{
+    padding-top: 2%;
+    padding-left: 0;
+    text-align: center;
+    font-size: 1.2rem;
+  }
+
 }
-
-#six{
-  height: 120vh;
-}
-
-.puplist-description{
-font-size: 3vh;
-
-}
-
-}
-
-
 
 @keyframes slide {
 
-0% {
-  transform: translate(0);
-}
-100% {
-  transform: translate(-100vw);
-}
+  0% {
+    transform: translate(0);
+  }
+  100% {
+    transform: translate(-100vw);
+  }
 
 }
 
