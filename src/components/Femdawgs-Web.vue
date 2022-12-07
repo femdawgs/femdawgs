@@ -615,8 +615,8 @@
 }
 
 .twitter{
-  width: 10vw;
-  min-height: 5vw;
+  width: 6rem;
+  height: 2rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -624,7 +624,8 @@
   background-color: rgb(0, 183, 255);
   border-radius: 5px 5px;
   border-style:solid;
-  font-size: 2vw;
+  border-width: thin;
+  font-size: 2rem;
   font-family: 'Amatic SC', cursive;
   font-weight: 900;
 
@@ -645,18 +646,19 @@
 }
 
 .discord{
-  width: 10vw;
-  min-height: 5vw;
+  width: 6rem;
+  height: 2rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   background-color: rgb(128, 81, 215);
-  margin-left: 2vw;
-  margin-right: 2vw;
+  margin-left: 2%;
+  margin-right: 2%;
   border-radius: 5px 5px;
   border-style: solid;
-  font-size: 2vw;
+  border-width: thin;
+  font-size: 2rem;
   font-family: 'Amatic SC', cursive;
   font-weight: 900;
 }
@@ -1287,7 +1289,7 @@ height: fit-content;
   }
 
   .teddy-description{
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     text-align: center;
   }
 
@@ -1384,6 +1386,21 @@ height: fit-content;
 .faq-description-content{
   font-size: 1.5rem;
   }
+
+  .twitter{
+    width:3rem;
+    height:1.2rem;
+    font-size:1.2rem;
+
+  }
+
+  .discord{
+    width:3rem;
+    height:1.2rem;
+    font-size:1.2rem;
+
+  }
+
 
 }
 
