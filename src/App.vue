@@ -22,6 +22,8 @@ export default {
   
 @import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
 /*font-family: 'Amatic SC', cursive;
   font-family: 'Damion', cursive;
   font-family: 'Niconne', cursive;

@@ -11,18 +11,10 @@
         <div class="menu-item">
 
           <div class="menu-text">
-            <a href="#vision">Vision</a>
+            <a href="#meet-the-artist">Artist</a>
             
           </div>
           
-        </div>
-
-        <div class="menu-item">
-
-          <div class="menu-text">
-            <a href="#teddy">Teddy</a>
-          </div>
-
         </div>
 
         <div class="menu-item">
@@ -68,6 +60,14 @@
 
         </div>
 
+        <div class="buy-now-total">
+          <div class="buy-now">
+            <a href="#mint">Buy Now!</a>
+          </div>
+
+        </div>
+          
+
         <div class="title-and-widgets">
           <div class="sub-title">
            Femdawgs
@@ -94,8 +94,6 @@
         </div>
         
 
-          
-
         <div class="femdawgs-description-and-images">
         <div class="femdawgs-description">
           10,000 glamorous 'dawgs' have the zoomies on the Cardano blockchain! The importance of feminine 
@@ -118,62 +116,47 @@
     </section>
 
 
-    <section id="vision">
-      <div class="sub-title">
-        Vision
+    <section id="meet-the-artist">
+      <div class="artist-title">
+        Meet The Artist
+      </div>
+
+      <div class="meet-the-artist-description">
+        - The Femdawgs collection was designed by artist Sarah Jones. <br> <br>
+        - Sarah is an educated creator <br><br>
+        - Sarah's 2 year old golden retriever is the inspiration of Femdawgs
 
       </div>
 
-      <div class="vision-description">
-        The Femdawgs collection was designed by artist Sarah Jones. Sarah is an educated creator 
-        that is new to the Cardano community. After falling in love with what she had learned, she 
-        was motivated to create a breathtaking project. With inspiration from her dog Teddy, 
-        she realized that this project would aim to prevent animal cruelty while 
-        simultaneously recognizing female power. Each Femdawg has it's own unique traits 
-        that illustrate various feminine features.
+      <div class="meet-the-artist-images">
+        <div class="artist-img-1">
+
+        </div>
+
+        <div class="artist-img-2">
+
+        </div>
+
+        <div class="artist-img-3">
+
+        </div>
+
+
       </div>
 
-      <div class="banner">
+      <!-- <div class="banner">
 
-        <!-- <img src="../Images/banner.png" alt=""> -->
+        <img src="../Images/banner.png" alt="">
         
-        <!-- <div class="banner1">
+        <div class="banner1">
           <img src="../Images/banner.png" alt="">
-        </div> -->
+        </div>
 
-        <!-- <div class="banner2">
+        <div class="banner2">
           <img src="../Images/IMG_1692.jpeg" alt=""> 
-        </div> -->
-
-      </div>
-
-    </section>
-
-    <section>
-      <div class="tennis">
-        <!-- <img src="../Images/IMG_3369.jpeg" alt="tennis" height="100%" width="100%"> -->
-      </div>
-    </section>
-
-
-    <section id="teddy">
-      <div class="sub-title">
-        Meet Teddy
-      </div>
-
-      <div class="teddy-description-and-picture">
-        <div class="teddy-description">
-          Teddy is a 2 year old golden retriever who loves snuggling, playing ball, and meeting new people. 
-          As one of the main inspirations of this project, he is considered a core team member. 
-          He works hard day in and day out to transmit good vibes and encourages his community 
-          to do the same. Teddy would love to meet as many community members as possible!  
         </div>
 
-        <div class="teddy-picture">
-          <!-- <img src="../Images/IMG_0081.jpeg" alt="teddy-pic" width = "100%" height="100%"> -->
-        </div>
-        
-      </div>
+      </div> -->
 
     </section>
 
@@ -199,7 +182,7 @@
             </div>
 
             <div class="roadmap1-description-content">
-              10,000 Femdawgs NFTs will land on the Cardano blockchain. Mint date TBD.<br>
+              10,000 Femdawgs NFTs will land on the Cardano blockchain. Minting will start on Dec 13th at 3PM UTC.<br>
               
             </div>
 
@@ -218,11 +201,8 @@
             </div>
 
             <div class="roadmap1-description-content">
-              1,000 Femdawgs Minted: $1,000 will be donated to a dog charity<br>
-              5,000 Femdawgs Minted: $5,000 will be donated to a dog charity<br>
-              10,000 Femdawgs Minted: $10,000 will be donated to a dog charity<br>
-              <br>
-              Charity will be chosen by community poll!
+              10% of your purchase will be donated to 
+              <a href="https://k9sforwarriors.org/">K9s For Warriors</a>
               
             </div>
 
@@ -384,8 +364,8 @@
             </div>
 
             <div class="faq-description-content">
-              Puplist Mint: Dec 13th at 3PM UTC <br>
-              Public Mint: Dec 14th at 3PM UTC
+              For Puplist Holder: Dec 13th at 3PM UTC <br>
+              For Public: Dec 14th at 3PM UTC
               
             </div>
 
@@ -404,7 +384,8 @@
             </div>
 
             <div class="faq-description-content">
-              34 ADA <br>
+              Puplist Holder Price: 17 ADA <br>
+              Public Price: 34 ADA <br>
               
             </div>
 
@@ -423,7 +404,7 @@
             </div>
 
             <div class="faq-description-content">
-              There will be 10,000 Femdawgs. <br>
+              There will only be 10,000 Femdawgs. <br>
               
             </div>
 
@@ -452,6 +433,12 @@
 
       </div>
 
+    </section>
+
+    <section>
+      <div class="tennis">
+        <!-- <img src="../Images/IMG_3369.jpeg" alt="tennis" height="100%" width="100%"> -->
+      </div>
     </section>
 
     <section id="team">
@@ -499,15 +486,18 @@
 
     <section id="mint">
       <div class="left-title">
-        Mint - soon
+        Mint
       </div>
 
       <div class="container1">
         <div class="chooseQuantity">
           <div class="mint-padding">
-            <label for="nft-quantity">Choose quantity</label>
+            <label for="nft-quantity">Puplist Holder: 17 ADA per mint<br>
+             Public: 34 ADA per mint<br>
+             <br>
+             Choose quantity:</label>
           </div>
-
+ 
           <div class="mint-padding">
             <select name="quantity" id="nft-quantity">
               <option value="1">1</option>
@@ -589,13 +579,60 @@
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 
+.buy-now-total{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.buy-now{
+  font-family: Bad Script;
+  font-size: 2rem;
+  font-weight: 900;
+  width:fit-content;
+  background-color: #89f190;
+  padding-left: 3%;
+  padding-right: 3%;
+  border-radius: 1rem;
+  border-style: solid;
+}
+
+.buy-now a:hover{
+  cursor: pointer;
+  color: rgb(247, 0, 161);
+}
+
+.buy-now a:active{
+  color: rgb(141, 1, 92);
+}
+
+.buy-now a{
+  text-decoration: none;
+  color: rgb(60, 59, 59);
+}
+
+
+.roadmap1-description-content a:hover{
+  cursor: pointer;
+  color: rgb(247, 0, 161);
+}
+
+.roadmap1-description-content a:active{
+  color: rgb(141, 1, 92);
+}
+
+.roadmap1-description-content a{
+  text-decoration: none;
+  color: rgb(39, 17, 242);
+}
 
 .doxxed{
   padding-top: 2%;
   padding-left: 5%;
-  font-family: 'Amatic SC', cursive;
-  font-size: 2rem;
-  font-weight: 900;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 1.7rem;
+  font-weight: 500;
   color: rgb(60, 59, 59);
   text-align: left;
 }
@@ -611,7 +648,7 @@
 
 .doxxed a{
   text-decoration: none;
-  color: rgb(60, 59, 59);
+  color: rgb(39, 17, 242);
 }
 
 .twitter{
@@ -625,9 +662,9 @@
   border-radius: 5px 5px;
   border-style:solid;
   border-width: thin;
-  font-size: 2rem;
-  font-family: 'Amatic SC', cursive;
-  font-weight: 900;
+  font-size: 1rem;
+  font-family: 'Varela Round', sans-serif;
+  font-weight: 500;
 
 }
 
@@ -658,9 +695,9 @@
   border-radius: 5px 5px;
   border-style: solid;
   border-width: thin;
-  font-size: 2rem;
-  font-family: 'Amatic SC', cursive;
-  font-weight: 900;
+  font-size: 1rem;
+  font-family: 'Varela Round', sans-serif;
+  font-weight: 500;
 }
 
 .discord a:hover{
@@ -704,11 +741,12 @@
   display: flex;
   flex-direction: column;
   padding-right: 5%;
+  align-items: center;
 }
 
 .team-member1-pic{
-  min-height: 200px;
-  min-width: 200px;
+  height: 200px;
+  width: 200px;
   background-image: url(../Images/IMG_3396.jpeg);
   background-size: cover;
   border-radius: 25% 25%;
@@ -716,30 +754,37 @@
 }
 
 .team-member-description{
-  font-size:2rem;
+  font-size:1.7rem;
   color: rgb(60, 59, 59);
-  font-family: 'Amatic SC', cursive;
-  font-weight:600;
+  font-family: 'Varela Round', sans-serif;
+  font-weight:500;
 }
 
 .team-member2{
 display: flex;
 flex-direction: column;
 padding-right: 5%;
+align-items: center;
 }
 
 .team-member2-pic{
-  min-height: 200px;
-  min-width: 200px;
+  height: 200px;
+  width: 200px;
   background-image: url(../Images/IMG_1709.jpeg);
   background-size: cover;
   border-radius: 25% 25%;
   border-style: solid;
 }
 
+.team-member3{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
 .team-member3-pic{
-  min-height: 200px;
-  min-width: 200px;
+  height: 200px;
+  width: 200px;
   background-image: url(../Images/IMG_1710.jpeg);
   background-size: cover;
   border-radius: 25% 25%;
@@ -747,25 +792,25 @@ padding-right: 5%;
 }
 
 .team-member-description a:hover{
-  font-family: 'Amatic SC', cursive;
+  font-family: 'Varela Round', sans-serif;
   color: rgb(247, 0, 161);
-  font-weight: 900;
+  font-weight: 500;
 }
 
 .team-member-description a:active{
-  font-family: 'Amatic SC', cursive;
+  font-family: 'Varela Round', sans-serif;
   color: rgb(141, 1, 92);
-  font-weight: 900;
+  font-weight: 500;
 }
 
 .team-member-description a{
   text-decoration: none;
-  color: rgb(60, 59, 59);
+  color: rgb(39, 17, 242);
 }
 
 .menu-text:hover{
   color: rgb(247, 0, 161);
-  font-weight: 900;
+  font-weight: 500;
 }
 
 .chooseQuantity{
@@ -774,13 +819,14 @@ flex-direction: column;
 width: fit-content;
 align-items: center;
 justify-content: center;
+padding: 2%;
 }
 
 .mint-padding{
   padding: 2%;
-  font-family: 'Amatic SC', cursive;
-  font-size: xx-large;
-  font-weight: 900;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 500;
 }
 
 .container1{
@@ -825,13 +871,14 @@ scroll-snap-align: start;
 
 #main{
   background-image: url(../Images/PinkClouds.PNG);
-  height: 635px;
+  height: 700px;
   box-shadow: inset 3px 3px 10px rgb(32, 35, 72), inset -3px -3px 10px rgb(32, 35, 72);
+  
 }
 
-#vision{
+#meet-the-artist{
   background-image: url(../Images/BlueClouds.PNG);
-  height: 635px;
+  height: 700px;
   box-shadow: inset 3px 3px 10px rgb(32, 35, 72), inset -3px -3px 10px rgb(32, 35, 72);
 }
 
@@ -844,7 +891,7 @@ scroll-snap-align: start;
 }
 
 #roadmap{
-  background-image: url(../Images/BlueClouds.PNG);
+  background-image: url(../Images/PinkClouds.PNG);
   height: 1500px;
   box-shadow: inset 3px 3px 10px rgb(32, 35, 72), inset -3px -3px 10px rgb(32, 35, 72);
   display: flex;
@@ -853,7 +900,7 @@ scroll-snap-align: start;
 }
 
 #puplist{
-  background-image: url(../Images/PinkClouds.PNG);
+  background-image: url(../Images/BlueClouds.PNG);
   height: 635px;
   box-shadow: inset 3px 3px 10px rgb(32, 35, 72), inset -3px -3px 10px rgb(32, 35, 72);
   display: flex;
@@ -862,8 +909,8 @@ scroll-snap-align: start;
 }
 
 #faq{
-  background-image: url(../Images/BlueClouds.PNG);
-  height: 1100px;
+  background-image: url(../Images/PinkClouds.PNG);
+  height: 1300px;
   box-shadow: inset 3px 3px 10px rgb(32, 35, 72), inset -3px -3px 10px rgb(32, 35, 72);
   display: flex;
   flex-direction: column;
@@ -871,14 +918,14 @@ scroll-snap-align: start;
 }
 
 #team{
-  background-image: url(../Images/PinkClouds.PNG);
+  background-image: url(../Images/BlueClouds.PNG);
   height: 635px;
   box-shadow: inset 3px 3px 10px rgb(32, 35, 72), inset -3px -3px 10px rgb(32, 35, 72);
 }
 
 #mint{
-  background-image: url(../Images/BlueClouds.PNG);
-  height: 635px;
+  background-image: url(../Images/PinkClouds.PNG);
+  height: 800px;
   box-shadow: inset 3px 3px 10px rgb(32, 35, 72), inset -3px -3px 10px rgb(32, 35, 72);
   display: flex;
   flex-direction: column;
@@ -897,23 +944,23 @@ scroll-snap-align: start;
 }
 
 .menu-text{
-  font-size: 4vw;
+  font-size: 3vw;
   color: rgb(60, 59, 59);
   cursor: pointer;
   padding: 10px;
-  font-family: 'Amatic SC', cursive;
-  font-weight:600;
+  font-family: 'Varela Round', sans-serif;
+  font-weight:400;
 }
 
 .menu a:hover{
   cursor: pointer;
   color: rgb(247, 0, 161);
-  font-weight: 900;
+  font-weight: 500;
 }
 
 .menu a:active{
   color: rgb(141, 1, 92);
-  font-weight: 900;
+  font-weight: 500;
 }
 
 .menu a{
@@ -939,9 +986,9 @@ scroll-snap-align: start;
 }
 
 .femdawgs-description{
-  font-family: 'Amatic SC', cursive;
-  font-size: 2rem;
-  font-weight: 900;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 1.7rem;
+  font-weight: 500;
   color: rgb(60, 59, 59);
   text-align: left;
   padding-right: 5%;
@@ -950,7 +997,7 @@ scroll-snap-align: start;
 .femdawgs-gif{
   min-height: 300px;
   min-width: 300px;
-  background-image: url(../Images/femdawgs-gif.png);
+  background-image: url(../Images/femdawgs.gif);
   background-size: cover;
   border-radius: 25% 25%;
   border-style: solid;
@@ -1012,14 +1059,64 @@ background-size: cover;
   width: 70%;
 }
 
-.vision-description{
-  font-family: 'Amatic SC', cursive;
-  font-size: 2rem;
-  font-weight: 900;
+.artist-title{
+  display: flex;
+  align-items: flex-start;
+  text-shadow: 1px 1px black;
+  font-family: 'Bad Script', cursive;
+  font-size: 7rem;
+  color: rgb(60, 59, 59);
+  padding-left: 5%;
+  margin-bottom: -5%;
+  padding-right: 5%;
+  width: 70%;
+}
+
+.meet-the-artist-description{
+  font-family: 'Varela Round', sans-serif;
+  font-size: 1.7rem;
+  font-weight: 500;
   color: rgb(60, 59, 59);
   text-align: left;
+  padding-top: 2%;
   padding-left: 5%;
   padding-right: 5%;
+}
+
+.meet-the-artist-images{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 2%;
+}
+
+.artist-img-1{
+  background-image: url(../Images/IMG_1709.jpeg);
+  width: 200px;
+  height: 200px;
+  background-size: cover;
+  border-radius: 25% 25%;
+  border-style: solid;
+}
+
+.artist-img-2{
+  background-image: url(../Images/IMG_1710.jpeg);
+  width: 200px;
+  height: 200px;
+  background-size: cover;
+  border-radius: 25% 25%;
+  border-style: solid;
+  margin-left: 2%;
+}
+
+.artist-img-3{
+  background-image: url(../Images/IMG_0081.jpeg);
+  width: 200px;
+  height: 200px;
+  background-size: cover;
+  border-radius: 25% 25%;
+  border-style: solid;
+  margin-left: 2%;
 }
 
 .banner{
@@ -1063,9 +1160,9 @@ background-size: cover;
 }
 
 .teddy-description{
-  font-family: 'Amatic SC', cursive;
+  font-family: 'Varela Round', sans-serif;
   font-size: 2rem;
-  font-weight: 900;
+  font-weight: 500;
   color: rgb(60, 59, 59);
   text-align: left;
   padding-left: 5%;
@@ -1122,7 +1219,7 @@ background-size: cover;
 .roadmap1-description{
   padding-left: 2%;
   padding-right: 2%;
-  background-color: rgb(231, 197, 246);
+  background-color: rgb(115, 220, 246);
   border-radius: 25px 25px;
   border-style: solid;
   border-color: black;
@@ -1137,10 +1234,10 @@ background-size: cover;
 }
 
 .roadmap1-description-content{
-  font-family: 'Amatic SC', cursive;
+  font-family: 'Varela Round', sans-serif;
   font-size: 1.7rem;
   color: rgb(60, 59, 59);
-  font-weight: 800;
+  font-weight: 500;
 }
 
 .collar{
@@ -1164,12 +1261,12 @@ height: fit-content;
 }
 
 .puplist-description{
-  font-family: 'Amatic SC', cursive;
+  font-family: 'Varela Round', sans-serif;
   width: 100%;
   height: 100%;
-  font-size: 1.8rem;
+  font-size: 1.7rem;
   color: rgb(60, 59, 59);
-  font-weight: 900;
+  font-weight: 500;
   text-align: left;
   padding-left: 5%;
   padding-right: 5%;
@@ -1185,20 +1282,20 @@ height: fit-content;
 }
 
 .puplist-description a:hover{
-  font-family: 'Amatic SC', cursive;
+  font-family: 'Varela Round', sans-serif;
   color: rgb(247, 0, 161);
-  font-weight: 900;
+  font-weight: 500;
 }
 
 .puplist-description a:active{
-  font-family: 'Amatic SC', cursive;
+  font-family: 'Varela Round', sans-serif;
   color: rgb(141, 1, 92);
-  font-weight: 900;
+  font-weight: 500;
 }
 
 .puplist-description a{
   text-decoration: none;
-  color: rgb(60, 59, 59);
+  color: rgb(39, 17, 242);
 }
 
 .faq-number{
@@ -1215,7 +1312,7 @@ height: fit-content;
 .faq-description{
   padding-left: 2%;
   padding-right: 2%;
-  background-color: rgb(231, 197, 246);
+  background-color: rgb(115, 220, 246);
   border-radius: 25px 25px;
   border-style: solid;
   border-color: black;
@@ -1230,23 +1327,24 @@ height: fit-content;
 }
 
 .faq-description-content{
-  font-family: 'Amatic SC', cursive;
+  font-family: 'Varela Round', sans-serif;
   font-size: 1.7rem;
   color: rgb(60, 59, 59);
-  font-weight: 800;
+  font-weight: 500;
 }
 
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 1000px) {
   
   .femdawgs-description-and-images{
     flex-direction: column;
     padding-bottom: 5%;
+    padding-top: 0;
   }
 
   .femdawgs-description{
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   padding-bottom: 5%;
   }
 
@@ -1264,8 +1362,18 @@ height: fit-content;
     height:1000px;
   }
 
+  #roadmap{
+    height: 1200px;
+  }
+
   .sub-title{
     font-size: 3.7rem;
+    text-shadow: 1px 1px black;
+    margin-bottom: 0;
+  }
+
+  .artist-title{
+    font-size: 2.5rem;
     text-shadow: 1px 1px black;
     margin-bottom: 0;
   }
@@ -1274,8 +1382,8 @@ height: fit-content;
     font-size: 4rem;
   }
 
-  .vision-description{
-    font-size: 1.5rem;
+  .meet-the-artist-description{
+    font-size: 1.2rem;
     text-align: center;
     padding-bottom: 5%;
   }
@@ -1312,7 +1420,7 @@ height: fit-content;
   }
 
   .puplist-description{
-    font-size: 1.4rem;
+    font-size: 1.2rem;
   }
 
   .puplist-img{
@@ -1363,8 +1471,8 @@ height: fit-content;
   .team-member-description{
   font-size:large;
   color: rgb(60, 59, 59);
-  font-family: 'Amatic SC', cursive;
-  font-weight:600;
+  font-family: 'Varela Round', sans-serif;
+  font-weight:500;
   }
 
   .doxxed{
@@ -1376,7 +1484,7 @@ height: fit-content;
   }
 
 .roadmap1-description-content{
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   }
 
   .faq-description-title{
@@ -1384,23 +1492,50 @@ height: fit-content;
   }
 
 .faq-description-content{
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   }
 
   .twitter{
     width:3rem;
     height:1.2rem;
-    font-size:1rem;
+    font-size:0.7rem;
 
   }
 
   .discord{
     width:3rem;
     height:1.2rem;
-    font-size:1rem;
+    font-size:0.7rem;
 
   }
 
+  .doxxed{
+    padding-top: 2%;
+    padding-left: 0;
+    text-align: center;
+    font-size: 1.2rem;
+  }
+
+
+}
+
+@media screen and (max-width: 675px) {
+
+  #meet-the-artist{
+    height:550px;
+  }
+  .artist-img-1{
+    height: 100px;
+    width: 100px;
+  }
+  .artist-img-2{
+    height: 100px;
+    width: 100px;
+  }
+  .artist-img-3{
+    height: 100px;
+    width: 100px;
+  }
 
 }
 
@@ -1412,8 +1547,8 @@ height: fit-content;
     .team-member-description{
     font-size:large;
     color: rgb(60, 59, 59);
-    font-family: 'Amatic SC', cursive;
-    font-weight:600;
+    font-family: 'Varela Round', sans-serif;
+    font-weight:500;
   }
 
   .team-members{
@@ -1443,13 +1578,6 @@ height: fit-content;
   .team-member3-pic{
     min-height: 120px;
     min-width: 120px;
-  }
-
-  .doxxed{
-    padding-top: 2%;
-    padding-left: 0;
-    text-align: center;
-    font-size: 1.2rem;
   }
 
 }
