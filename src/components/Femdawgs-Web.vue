@@ -122,9 +122,10 @@
       </div>
 
       <div class="meet-the-artist-description">
-        - The Femdawgs collection was designed by artist Sarah Jones. <br> <br>
-        - Sarah is an educated creator <br><br>
-        - Sarah's 2 year old golden retriever is the inspiration of Femdawgs
+        The Femdawgs collection was designed by co-founder and artist Sarah Jones. <br> <br>
+        Sarah received her fine arts degree from Syracuse University. Today, she is an art teacher in 
+        the New York Metropolitan Area <br><br>
+        Sarah's 2-year-old golden retriever is the inspiration of Femdawgs
 
       </div>
 
@@ -1091,7 +1092,7 @@ background-size: cover;
 }
 
 .artist-img-1{
-  background-image: url(../Images/IMG_1709.jpeg);
+  background-image: url(../Images/IMG_1710.jpeg);
   width: 200px;
   height: 200px;
   background-size: cover;
@@ -1100,7 +1101,7 @@ background-size: cover;
 }
 
 .artist-img-2{
-  background-image: url(../Images/IMG_1710.jpeg);
+  background-image: url(../Images/IMG_1709.jpeg);
   width: 200px;
   height: 200px;
   background-size: cover;
