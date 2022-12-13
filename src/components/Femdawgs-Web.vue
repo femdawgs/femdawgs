@@ -306,7 +306,7 @@
       <div class="puplist-content">
         <div class="puplist-description">
           The 'Femdawgs - Puplist' is a ticket airdropped to early supporters of the project. There are 150 in total and they
-          come with great utility!<br> <br> Puplist benefits are as follows:<br>
+          come with great utility!<br> <br> Puplist benefits include:<br>
           - Mint before public<br>
           - 50% off mint price<br>
           - Same benefits for future projects<br>
@@ -365,8 +365,8 @@
             </div>
 
             <div class="faq-description-content">
-              For Puplist Holder: Dec 13th at 3PM UTC <br>
-              For Public: Dec 14th at 3PM UTC
+              Puplist Holders: Dec 13th at 3PM UTC <br>
+              Public: Dec 14th at 3PM UTC
               
             </div>
 
@@ -493,7 +493,7 @@
       <div class="container1">
         <div class="chooseQuantity">
           <div class="mint-padding">
-            <label for="nft-quantity">Puplist Holder: 17 ADA per mint<br>
+            <label for="nft-quantity">Puplist Holders: 17 ADA per mint<br>
              Public: 34 ADA per mint<br>
              <br>
              Choose quantity:</label>
