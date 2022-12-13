@@ -500,19 +500,16 @@
           </div>
  
           <div class="mint-padding">
-            <select name="quantity" id="nft-quantity">
-              <option value="1">1</option>
-              <option value="2">2</option>
-              <option value="3">3</option>
-              <option value="4">4</option>
-              <option value="5">5</option>
-              <option value="10">10</option>
-              <option value="20">20</option>
+            <select v-model="selected" class="pixel-borders --2 text-white bg-blue-700 hover:bo-blue-800 text-2xl px-4 py-2.5 text-center inline-flex w-64
+              max-w-md items-center mx-auto cursor-pointer mb-10 h-16 md:h-auto">
+              <option class= "bg-blue-7ee" v-for="option in options" :value="option.quantity" :key="option. quantity">
+              {{ option.quantity}}
+              </option>
             </select>
           </div>
           
           <div class="mint-padding">
-            <img src="https://pro.nft-maker.io/images/buttons/paybutton_2_3.svg" @click="openPaymentWindow()">
+            <img src="https://pro.nft-maker.io/images/buttons/paybutton_2_3.svg" @click="openPaymentWindow">
           </div>
 
         </div>
@@ -546,31 +543,50 @@
 
   export default{
 
-    // methods:{
-    //   openPaymentWindow() {
-    //   // Please replace this URL with the one from your own project. You have been warned!!!
-    //   const paymentUrl = "https://pay.nmkr.io/?p=9d264a5d12234f468a0722d5de924553&c=1";
-    //   // Specify the popup width and height
-    //   const popupWidth = 500;
-    //   const popupHeight = 700;
-    //   // Calculate the center of the screen
-    //   const left = window.top.outerWidth / 2 + window.top.screenX - (popupWidth / 2);
-    //   const top = window.top.outerHeight / 2 + window.top.screenY - (popupHeight / 2);
-    //   const popup = window.open(paymentUrl, "NFT-MAKER PRO Payment Gateway", `popup=1, location=1, width=${popupWidth}, height=${popupHeight}, left=${left}, top=${top}`);
-    //   // Show dim background
-    //   document.body.style = "background: rgba(0, 0, 0, 0.5)";
-    //   // Continuously check whether the popup has been closed
-    //   const backgroundCheck = setInterval(function() {
-    //     if (popup.closed) {
-    //       clearInterval(backgroundCheck);
-    //       console.log("Popup closed");
-    //       // Remove dim background
-    //       document.body.style = "";
-    //     }
-    //   }, 1000);
-    //   }
+    name: 'Purchase NFT',
 
-    // }
+    data(){
+      return {
+        selected: 1,
+        options: [
+          {quantity: 1},
+          {quantity: 2},
+          {quantity: 3},
+          {quantity: 4},
+          {quantity: 5},
+          {quantity: 10},
+          {quantity: 20},
+        ],
+
+      }
+
+    },
+
+    methods:{
+      openPaymentWindow() {
+      // Please replace this URL with the one from your own project. You have been warned!!!
+      const paymentUrl = `https://pay.nmkr.io/?p=9d264a5d12234f468a0722d5de924553&c=${this.selected}`;
+      // Specify the popup width and height
+      const popupWidth = 500;
+      const popupHeight = 700;
+      // Calculate the center of the screen
+      const left = window.top.outerWidth / 2 + window.top.screenX - (popupWidth / 2);
+      const top = window.top.outerHeight / 2 + window.top.screenY - (popupHeight / 2);
+      const popup = window.open(paymentUrl, "NFT-MAKER PRO Payment Gateway", `popup=1, location=1, width=${popupWidth}, height=${popupHeight}, left=${left}, top=${top}`);
+      // Show dim background
+      document.body.style = "background: rgba(0, 0, 0, 0.5)";
+      // Continuously check whether the popup has been closed
+      const backgroundCheck = setInterval(function() {
+        if (popup.closed) {
+          clearInterval(backgroundCheck);
+          console.log("Popup closed");
+          // Remove dim background
+          document.body.style = "";
+        }
+      }, 1000);
+      }
+
+    }
   }
 
 
