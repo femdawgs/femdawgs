@@ -912,7 +912,7 @@ scroll-snap-align: start;
 
 #faq{
   background-image: url(../Images/PinkClouds.PNG);
-  height: 1300px;
+  height: 1200px;
   box-shadow: inset 3px 3px 10px rgb(32, 35, 72), inset -3px -3px 10px rgb(32, 35, 72);
   display: flex;
   flex-direction: column;
