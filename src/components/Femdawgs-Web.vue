@@ -89,6 +89,13 @@
 
             </div>
 
+            <div class="jpg">
+              <a href="https://www.jpg.store/collection/femdawgs">
+                JPG Store
+              </a>
+
+            </div>
+
           </div>
 
         </div>
@@ -493,10 +500,19 @@
       <div class="container1">
         <div class="chooseQuantity">
           <div class="mint-padding">
-            <label for="nft-quantity">Puplist Holders: 17 ADA per mint<br>
-             Public: 34 ADA per mint<br>
-             <br>
-             Choose quantity:</label>
+            <div class="mint-details">Puplist Holders: 17 ADA per mint<br>
+            </div>
+
+            <div class="puplist-deal">
+              (Transaction will cost 34 ADA per mint and 50% of the purchase will be refunded immediately)
+            </div>
+
+            <div class="mint-details">
+              <br>Public: 34 ADA per mint<br>
+              <br>
+              Choose quantity:
+            </div>
+
           </div>
  
           <div class="mint-padding">
@@ -709,7 +725,6 @@
   align-items: center;
   background-color: rgb(128, 81, 215);
   margin-left: 2%;
-  margin-right: 2%;
   border-radius: 5px 5px;
   border-style: solid;
   border-width: thin;
@@ -730,6 +745,38 @@
 .discord a{
   text-decoration: none;
   color: rgb(239, 239, 239);
+}
+
+.jpg{
+  width: 6rem;
+  height: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(241, 231, 34);
+  margin-left: 2%;
+  margin-right: 2%;
+  border-radius: 5px 5px;
+  border-style: solid;
+  border-width: thin;
+  font-size: 1rem;
+  font-family: 'Varela Round', sans-serif;
+  font-weight: 500;
+}
+
+.jpg a:hover{
+  cursor: pointer;
+  color: rgb(247, 0, 161);
+}
+
+.jpg a:active{
+  color: rgb(141, 1, 92);
+}
+
+.jpg a{
+  text-decoration: none;
+  color: rgb(60, 59, 59);
 }
 
 
@@ -834,23 +881,34 @@ align-items: center;
 .chooseQuantity{
 display: flex;
 flex-direction: column;
-width: fit-content;
+width:100%;
 align-items: center;
 justify-content: center;
 padding: 2%;
+
 }
 
-.mint-padding{
-  padding: 2%;
+.mint-details{
   font-family: 'Varela Round', sans-serif;
   font-size: 1.2rem;
   font-weight: 500;
 }
 
+.puplist-deal{
+  font-family: 'Varela Round', sans-serif;
+  font-size: 0.7rem;
+  font-weight: 500;
+}
+
+.mint-padding{
+  padding: 2%;
+ 
+}
+
 .container1{
   display: flex;
   flex-direction: column;
-  width: fit-content;
+  width: 50%;
   align-items: center;
   justify-content: center;
 }
@@ -1514,16 +1572,33 @@ height: fit-content;
   }
 
   .twitter{
-    width:3rem;
+    width:4rem;
     height:1.2rem;
     font-size:0.7rem;
 
   }
 
   .discord{
-    width:3rem;
+    width:4rem;
     height:1.2rem;
     font-size:0.7rem;
+    margin-left: 0;
+    margin-top: 0.3rem;
+
+  }
+
+  .jpg{
+    width:4rem;
+    height:1.2rem;
+    font-size:0.7rem;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0.3rem;
+
+  }
+
+  .widgets{
+    flex-direction: column;
 
   }
 
